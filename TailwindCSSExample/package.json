@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.10",
+    "tailwindcss": "^4.0.10"
+  }
+}
