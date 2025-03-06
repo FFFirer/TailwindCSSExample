@@ -4,7 +4,9 @@
     {
       "Path": "index.css",
       "IsDefault": true,
-      "ApplicableLocations": [".\\Components\\"]
+      "ApplicableLocations": [
+        "Components\\"
+      ]
     }
   ],
   "BuildFiles": [

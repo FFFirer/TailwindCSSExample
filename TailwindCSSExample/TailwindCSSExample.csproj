@@ -10,12 +10,12 @@
         <Folder Include="wwwroot\" />
     </ItemGroup>
 
-    <Target Name="PnpmInstall">
+    <Target Name="RestoreNPM">
         <Exec Command="pnpm install" />
     </Target>
     
-    <Target Name="BuildCSS">
-        <Exec Command="pnpm run css:build" />
+    <Target Name="WatchCSS">
+        <Exec Command="npx tailwindcss -i ./index.css -o $(OutputPath)wwwroot\\app.css -w" />
     </Target>
 
 </Project>
