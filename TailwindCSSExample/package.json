@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css:build": ""
+    "css:build": "npx tailwindcss -i ./Client/index.css -o ./wwwroot/app.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.10",
+    "daisyui": "^5.0.0",
     "tailwindcss": "^4.0.10"
   }
 }
